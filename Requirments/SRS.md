@@ -104,7 +104,7 @@
 
 Карточка телефона.  
 
-![Карточка телефона](mockups/phone_card.png)  
+![Карточка телефона](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/Card_page.PNG)  
 
 Корзина.  
 
