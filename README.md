@@ -9,6 +9,6 @@ Interface language: JavaScript.
 
 [SRS of program](https://github.com/va1leks/Telephone-Shop/blob/main/Requirments/SRS.md) 
 
-[User interface images](https://github.com/DanutaGagua/Personal-film-collection-manager/tree/master/Mockups)
+[User interface images](https://github.com/va1leks/Telephone-Shop/tree/main/Mockups)
 
 
