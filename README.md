@@ -1,6 +1,7 @@
-# Personal-film-collection-manager
+# Mobile-Phone-Store
 
-This program allows to find information about your favorite films.
+This application helps store managers efficiently manage mobile phone inventory, 
+track sales, and maintain customer information.
 
 Operation system: Windows  
 
