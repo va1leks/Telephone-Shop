@@ -92,15 +92,15 @@
 
 Страница входа.  
 
-![Окно входа в приложение](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignInMockup.png)  
+![Окно входа в приложение](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/Login_page.png)  
 
 Страница регистрации.  
 
-![Окно регистрации](mockups/signup.png)  
+![Окно регистрации](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/Register_page.png)  
 
 Каталог телефонов.  
 
-![Каталог телефонов](mockups/catalog.png)  
+![Каталог телефонов](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/Catalog_page.png)  
 
 Карточка телефона.  
 
@@ -108,15 +108,15 @@
 
 Корзина.  
 
-![Корзина]([mockups/cart.png](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/Card_page.PNG))  
+![Корзина](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/cart_page.PNG)  
 
 Оформление заказа.  
 
-![Оформление заказа](mockups/checkout.png)  
+![Оформление заказа](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/order_page.PNG)  
 
 Ошибка поиска.  
 
-![Ошибка поиска](mockups/search_error.png)  
+![Ошибка поиска](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/search_error.PNG)  
 
 <a name="user_specifications"/>
 
