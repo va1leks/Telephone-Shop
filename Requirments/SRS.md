@@ -108,7 +108,7 @@
 
 Корзина.  
 
-![Корзина](mockups/cart.png)  
+![Корзина]([mockups/cart.png](https://github.com/va1leks/Telephone-Shop/blob/main/Mockups/Card_page.PNG))  
 
 Оформление заказа.  
 
