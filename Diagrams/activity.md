@@ -1,11 +1,20 @@
-# Диаграмма активностей    
+# Диаграммы активностей    
+
+# Содержание
+1. [Вход/Регистрация и просмотр товаров](#1)
+2. [Управление корзиной](#2)
+3. [Оформление заказа](#3)
 
 
 
+### 1. Вход/Регистрация и просмотр товаров<a name="1"></a>
 
+![Выбор способа входа в приложение](https://github.com/va1leks/Telephone-Shop/blob/main/Diagrams/images/activity_1.png)
 
-### 1. Общая Диаграмма активностей  <a name="1"></a>
+### 2.  Управление корзиной<a name="2"></a>
 
-![Выбор способа входа в приложение](https://github.com/va1leks/Telephone-Shop/blob/main/Diagrams/images/activity.png)
+![Управление корзиной](https://github.com/va1leks/Telephone-Shop/blob/main/Diagrams/images/activity_2.png)
+  
+### 3. Оформление заказа<a name="3"></a>
 
-На диаграмме представленно общее поведение пользователя при использовании приложения
+![Оформление заказа](https://github.com/va1leks/Telephone-Shop/blob/main/Diagrams/images/activity_3.png)
