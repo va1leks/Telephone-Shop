@@ -18,18 +18,23 @@ public class ClientController {
 
     public ClientServiceImpl clientService;
 
-    @GetMapping("{id}")
+    @GetMapping("client/{id}")
     Optional<Client> findById(@PathVariable long id) {
         return clientService.GetClientById(id);
     }
 
-    @PostMapping("/retister")
+    @PostMapping("/register")
     Client CreateClient(@RequestBody ClientDto client) {
         return clientService.CreateClient(client);
     }
 
     @GetMapping("/cart/{id}")
-    List<Telephone> GetTelephonesFromCart(@PathVariable long ClientId) {
-        return clientService.GetTelephonesFromCart(ClientId);
+    List<Telephone> GetTelephonesFromCart(@PathVariable long id) {
+        return clientService.GetTelephonesFromCart(id);
+    }
+
+    @PostMapping("/cart/add") // Добавьте этот эндпоинт
+    public Client AddTelephoneToCart(@RequestParam long clientId, @RequestParam long telephoneId) {
+        return clientService.AddTelephoneToCart(clientId, telephoneId);
     }
 }

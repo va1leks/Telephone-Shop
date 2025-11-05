@@ -1,6 +1,7 @@
 package com.example.telephoneshop.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,6 +18,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Getter
 @Setter
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -27,7 +29,13 @@ public class Order {
     String fullName;
     String status;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "telephone_id")
-    Set<AvailableTelephone> telephones;
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+            name = "order_telephone",
+            joinColumns = @JoinColumn(name = "order_id"),
+            inverseJoinColumns = @JoinColumn(name = "telephone_id")
+    )
+    @JsonIgnoreProperties({"images", "availableTelephones", "telephone"})
+    List<Telephone> telephones;
+
 }
