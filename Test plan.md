@@ -94,7 +94,7 @@
 
 ## Представление результатов
 
-Результаты представлены в документе ["Результаты тестирования"](https://github.com/va1leks/Telephone-Shop/Test%20result).
+Результаты представлены в документе ["Результаты тестирования"](https://github.com/va1leks/Telephone-Shop/blob/main/Test%20results.md).
 
 <a name="conclusion"/>
 
